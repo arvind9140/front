@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cody</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            animation: colorChange 10s infinite alternate;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 10px solid #ffffff; /* Customize border style and color */
+            border-radius: 10px; /* Add border radius for a rounded frame */
+            animation: imageAnimation 5s infinite;
+        }
+        h1 {
+            color: white;
+            font-size: 36px;
+            text-align: center;
+        }
+        p {
+            color: white;
+            font-size: 18px;
+            text-align: center;
+        }
+        footer {
+            position: absolute;
+            bottom: 10px;
+            color: white;
+        }
+        @keyframes colorChange {
+            0% {
+                background-color: #ff6666;
+            }
+            14% {
+                background-color: #ff9933;
+            }
+            28% {
+                background-color: #ffcc00;
+            }
+            42% {
+                background-color: #66ff66;
+            }
+            57% {
+                background-color: #3399ff;
+            }
+            71% {
+                background-color: #9933ff;
+            }
+            85% {
+                background-color: #ff66b2;
+            }
+            100% {
+                background-color: #ff6666;
+            }
+        }
+        @keyframes imageAnimation {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to CODY World</h1>
+    </header>
+
+    <section>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAd95aHsq4y5pVFYtFPSxhnLNVznmHA46ao5QkK6_kyw&s" alt="Description of the image">
+        <ul>
+            <li>Scan this QR code then enjoy CODY❤️service</li>
+            
+            
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 cody.com</p>
+    </footer>
+</body>
+</html>
